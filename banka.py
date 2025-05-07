@@ -9,3 +9,6 @@ if girilenSifre != kartsifresi:
     print("Yanlış Şifre.Tekrar Deneyiniz.")
     denemeHakki -=1
     print(denemeHakki,"Deneme Hakkınız Kaldı")
+    if denemeHakki == 0:
+       print("Kartınız Bloklandı.Banka ile görüşün")
+       
