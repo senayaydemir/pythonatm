@@ -2,6 +2,7 @@ kartsifresi="2002"
 bakiye="5000"
 denemeHakki="3"
 print("X Bankasına Hoşgeldiniz")
+kart_islem_durumu=True
 İslemDurumu = True
 while İslemDurumu:
  girilenSifre=input("Kart Şifrenizi Giriniz:")
@@ -11,4 +12,7 @@ if girilenSifre != kartsifresi:
     print(denemeHakki,"Deneme Hakkınız Kaldı")
     if denemeHakki == 0:
        print("Kartınız Bloklandı.Banka ile görüşün")
-       
+       İslemDurumu=False
+else:
+   while kart_islem_durumu:
+      print("Giriş Yapıldı")    
