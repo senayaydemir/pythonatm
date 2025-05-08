@@ -16,3 +16,12 @@ if girilenSifre != kartsifresi:
 else:
    while kart_islem_durumu:
       print("Giriş Yapıldı")    
+      print("""
+            Yapılacak İşlemi Seçiniz
+            ------------------------
+            1.Para Çekme
+            2.Para Yatırma
+            3.Bakiye Sorgulama
+            4.Çıkış
+            """)
+      islemNo =input("İşlem numarasını giriniz:")
