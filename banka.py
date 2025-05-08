@@ -23,6 +23,7 @@ else:
             2.Para Yatırma
             3.Bakiye Sorgulama
             4.Çıkış
+            ------------------------
             """)
       islemNo =input("İşlem numarasını giriniz:")
       if islemNo =="4":
@@ -31,3 +32,7 @@ else:
          kart_islem_durumu = False
       elif islemNo == "3":
          print("Toplam Bakiye:",bakiye,"₺")
+      elif islemNo == "2":
+         yatırılacakmiktar=int(input("Yatırılacak Miktar:"))
+         bakiye += yatırılacakmiktar
+         print("İşlem Gerçekleşti")
