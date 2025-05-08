@@ -25,3 +25,9 @@ else:
             4.Çıkış
             """)
       islemNo =input("İşlem numarasını giriniz:")
+      if islemNo =="4":
+         print("Çıkış Yapıldı")
+         İslemDurumu = False
+         kart_islem_durumu = False
+      elif islemNo == "3":
+         print("Toplam Bakiye:",bakiye,"₺")
