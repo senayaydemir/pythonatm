@@ -36,3 +36,7 @@ else:
          yatırılacakmiktar=int(input("Yatırılacak Miktar:"))
          bakiye += yatırılacakmiktar
          print("İşlem Gerçekleşti")
+      elif islemNo =="1":
+         cekilecekmiktar = int(input("Çekilecek Miktar:"))
+         if cekilecekmiktar > bakiye:
+            print("Yetersiz Bakiye") 
