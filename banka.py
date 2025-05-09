@@ -40,3 +40,6 @@ else:
          cekilecekmiktar = int(input("Çekilecek Miktar:"))
          if cekilecekmiktar > bakiye:
             print("Yetersiz Bakiye") 
+         else:
+            bakiye -=cekilecekmiktar
+            print("İşlem Gerçekleşti")
